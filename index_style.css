@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Resetowanie stylów dla listy */
+ul {
+  list-style: none;
+}
+
+/* Styl dla sekcji menu */
+.menu {
+  background-color: white; /* Kolor tła sekcji */
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+/* Styl dla menu nawigacyjnego */
+nav {
+  background-color: #f2f2f2; /* Kolor tła menu */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px; /* Dodatkowy padding dla estetyki */
+}
+
+/* Styl dla logo */
+.logo {
+  font-size: 20px; /* Rozmiar czcionki dla logo */
+  font-weight: bold; /* Pogrubienie tekstu */
+}
+
+.logo a {
+  text-decoration: none; /* Usunięcie podkreślenia odnośnika */
+  color: #333; /* Kolor tekstu */
+}
+
+/* Styl dla listy nawigacyjnej */
+ul {
+  display: flex;
+}
+
+/* Styl dla poszczególnych elementów listy */
+li {
+  margin: 0 15px; /* Margines między elementami listy */
+}
+
+/* Styl dla odnośników w liście */
+li a {
+  text-decoration: none; /* Usunięcie podkreślenia odnośnika */
+  color: #333; /* Kolor tekstu */
+}
+
+/* Efekt hover dla odnośników */
+li a:hover {
+  color: #007bff; /* Kolor tekstu po najechaniu myszką */
+}
+
+
+
+
+
+
+
+  .zdjpodmenu {
+
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .zdjpodmenu img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .zdjpodmenu:hover img {
+            transform: scale(1.2);
+        }
